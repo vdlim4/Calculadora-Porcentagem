@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(206, 175, 135);
+    font: normal 12pt Arial;
+}
+
+header {
+    text-align: center;
+}
+
+#painel {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.308);
+    background-color: antiquewhite;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.campo {
+    width: 100px;
+}
+
+.botao {
+    border: solid 1px;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+.botao:hover {
+    background-color: rgb(231, 223, 215);
+}
+.botao:active {
+    background-color: rgb(255, 190, 104);
+}
+
+footer {
+    text-align: center;
+}

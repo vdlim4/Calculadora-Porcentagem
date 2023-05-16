@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Porcentagem</h1>
+    </header>
+    <section id="painel">
+        <h2>Informe o valor e a porcentagem em seus devidos campos.</h2>
+        <p>Ex: <br/> Valor: 100 <br/>Porcentagem: 10 <br/> Resultado: 10</p>
+        <div class="soma">
+            <p><input type="number" name="txtn" class="txtn campo" placeholder="Valor"></p>
+            <p><input type="number" name="txtp" class="txtp campo" placeholder="Porcentagem"></p>
+        </div>
+        <div class="botao-div">
+            <input type="button" value="Calcular" class="botao" onclick="calcular()">
+        </div>
+        <div id="res">
+    
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Victor Lima</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
